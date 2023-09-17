@@ -1,0 +1,76 @@
+
+
+.bg-image {
+    background: url(/images/contact.jpg) no-repeat center center/cover; 
+    
+}
+
+/* Navbar */
+
+.nav-item a:hover {
+    color: #ffa700;
+}
+
+.navbar .social i {
+    color: #303030;
+    margin: 5px;
+    font-size: 28px;
+}
+
+
+/* Contact */
+
+input:focus, input:valid {
+    border: 1px solid #ffa700 ;
+}
+
+textarea:focus, textarea:valid {
+    border: 1px solid #ffa700 ;
+}
+
+.form-control:focus {
+    border-color: #ffa700;
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #ffa700;
+  }
+
+
+/* Images & Gallery */
+
+#stream img:hover {
+    opacity: 0.7;
+}
+
+#gallery img:hover {
+    opacity: 0.7;
+}
+
+#gallery2 img:hover {
+    opacity: 0.7;
+}
+
+#gallery3 img:hover {
+    opacity: 0.7;
+}
+
+#gallery4 img:hover {
+    opacity: 0.7;
+}
+
+#gallery5 img:hover {
+    opacity: 0.7;
+}
+
+#gallery6 img:hover {
+    opacity: 0.7;
+}
+
+.arrow {
+    color: #ffa700;
+}
+
+
+
+
+
+

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./icon.ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sassy Band | Welcome</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
+      <div class="container">
+        <img src="./images/sassy.png" alt="logo" width="100">
+        <a href="#" class="navbar-brand">Sassy Band</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-dark" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stream" class=" current nav-link">Stream our Songs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Pictures</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <p class="display-5">|</p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=100086059381982" target="_blank"
+            ><i class="bi bi-facebook"></i></i
+          ></a>
+          <a href="https://www.tiktok.com/@bandang_sassy?fbclid=IwAR00Q-AZh3_4uKq6JIUbknRzIL2H7PaXiOzRMadBph-PPNJBp1t_pVCyUTE" target="_blank"
+            ><i class="bi bi-tiktok"></i></i
+          ></a>
+          <a href="https://www.instagram.com/sassyliciouszxc/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR3AWJBlhN5_J9icNn2K7_xKzf_rCDVLvutamwwPxhPLlqlbjz5h6RXI7pI" target="_blank"
+            ><i class="bi bi-instagram"></i></i
+          ></a>
+          <a href="https://www.youtube.com/@sassy_music" target="_blank"
+            ><i class="bi bi-youtube"></i></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+       <!-- Showcase / Hero -->
+       
+       <section
+       id="slider"
+       class="carousel slide carousel-fade"
+       data-bs-ride="carousel"
+       data-bs-touch="true"
+     >
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="./images/hero2.jpg" alt="Banner1" class="w-100" />
+         </div>
+         <div class="carousel-item active">
+           <img src="./images/hero4.jpg" alt="Banner2" class="w-100" />
+         </div>
+         <div class="carousel-item active">
+          <img src="./images/hero4 (2).jpg" alt="Banner3" class="w-100" />
+        </div>
+         <div class="carousel-item active">
+           <img src="./images/hero1.jpg" alt="Banner3" class="w-100" />
+         </div>  
+       </div>
+       <button
+         class="carousel-control-prev"
+         type="button"
+         data-bs-target="#slider"
+         data-bs-slide="prev"
+       >
+         <span class="carousel-control-prev-icon"></span>
+       </button>
+       <button
+         class="carousel-control-next"
+         type="button"
+         data-bs-target="#slider"
+         data-bs-slide="next"
+       >
+         <span class="carousel-control-next-icon"></span>
+       </button>
+     </section>
+
+         <!-- About -->
+    <section id="about" class="py-3">
+      <div class="container">
+        <div class="row align-items justify-content-between">
+          <div class="col-md">
+            <img
+              src="./images/sassy.png"
+              alt="Fundamentals"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>Sassy Band</h2>
+            <p>
+              A Pop rock band based in Surigao City. Ignited since 2022, playing at schools as guests, big stages & band of the bands. Known for their pop rock, classic, jazzy playing style style. Their very 1st single, ECQ was released last January 13, 2023 and caught the attention of many teens in the City. Now, they've already released 3 of their original songs and stillworking hard to release their 1st album this 2023.
+            </p>
+            <a href="./about.html" target="_blank" class="btn btn-warning mt-3"
+              ><i class="bi bi-chevron-right"></i>Meet the Band</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stream -->
+
+      <section id="stream" class="bg-warning text-dark">
+        <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <div class="row align-items text-center">
+                <div class="col-md p-5">
+                  <h2>Stream our Songs</h2>
+                    <p>
+                      Our songs are available online.  You can stream the songs on SPOTIFY, APPLE MUSIC and YOUTUBE MUSIC.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+              <!-- Cards -->
+            <div class="row pb-5">
+              <div class="col-md-4 text-center p-4">
+                <div class="card">
+                  <img src="./images/cover1.jpg" alt="album1" class="card-img-top" />
+                  <div class="card-body">
+                    <h4 class="card-title">ECQ (E-Crushback Ko)</h4>
+                    <p class="card-text">
+                       1st single. Released January 13, 2023
+                    </p>
+                    <div>
+                      <a href="https://music.apple.com/ph/album/ecq-e-crushback-ko-single/1664564106" target="_blank"><img src="./images/apple-music.svg" alt="apple music" width="50"></a>
+                      <a href="https://open.spotify.com/track/3Trxb0X0cTkF3AhJp6JBWN?si=bffa4e0c299a4e55" target="_blank"><img src="./images/spotify1.svg" alt="spotify" width="50"></a>
+                      <a href="https://music.youtube.com/watch?v=YmVcV79b0oY&si=Hr_BZx78TDjmxpLm" target="_blank"><img src="./images/youtube-music.svg" alt="youtube" width="50"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- 2nd card -->
+              <div class="col-md-4 text-center p-4">
+                <div class="card">
+                  <img src="./images/cover2.jpg" alt="album2" class="card-img-top" />
+                  <div class="card-body">
+                    <h4 class="card-title">TL (True Love)</h4>
+                      <p class="card-text">
+                        2nd single. Released May 9, 2023
+                      </p>
+                    <div>
+                        <a href="https://music.apple.com/ph/album/tl-single/1688377460" target="_blank"><img src="./images/apple-music.svg" alt="apple music" width="50"></a>
+                        <a href="https://open.spotify.com/track/6HuuyQK0iBLc8qvmzUdGSj?si=d8e5ea2c82114c9b" target="_blank"><img src="./images/spotify1.svg" alt="spotify" width="50"></a>
+                        <a href="https://music.youtube.com/watch?v=767MWjqJEjM&si=wVQ-GgtG7dT0ebWp" target="_blank"><img src="./images/youtube-music.svg" alt="youtube" width="50"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+                <!-- 3rd card -->
+              <div class="col-md-4 text-center p-4">
+                <div class="card">
+                  <img src="./images/cover3.jpg" alt="album3" class="card-img-top" />
+                  <div class="card-body">
+                    <h4 class="card-title">Reyna</h4>
+                    <p class="card-text">
+                       3rd Single. Released August 4, 2023
+                    </p>
+                    <div>
+                      <a href="https://music.apple.com/ph/album/reyna-single/1698797854" target="_blank"><img src="./images/apple-music.svg" alt="apple music" width="50"></a>
+                      <a href="https://open.spotify.com/track/6vLGuGARwC9tAjxsg2hfyj?si=4be0487e3bfe4084" target="_blank"><img src="./images/spotify1.svg" alt="spotify" width="50"></a>
+                      <a href="https://music.youtube.com/watch?v=0QH7z4Lvdyg&si=NOtxPIE4bApmeu_A" target="_blank"><img src="./images/youtube-music.svg" alt="youtube" width="50"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+    <!-- Gallery -->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="text-center">
+            <h2>Picture Gallery</h2>
+            <p>
+              Pictures of some of our gigs around the city.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/sec1.jpg" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Surigao Education Center Event</h4>
+                <p class="card-text">
+                 Paugnat sa Kusog school guesting.
+                </p>
+                <a href="./gallery.html#gallery" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/hero2.jpg" alt="Work1" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Band Photoshoot</h4>
+                <p class="card-text">
+                Photoshoot for an event.
+                </p>
+                <a href="./gallery.html#gallery2" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/bob.jpg" alt="Work1" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Sison, SDN Battle of the Bands</h4>
+                <p class="card-text">
+                 Battle of the bands for the town fiesta of Sison.
+                </p>
+                <a href="./gallery.html#gallery3" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="mt-3 p-3">
+      <div class="container">
+        <div class="row mb-3">
+      </div>
+
+        <!-- 4th Card -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/gym.jpg" alt="Band photo" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">122nd Adlaw nan Surigao</h4>
+                <p class="card-text">
+                 Guesting held at the Provincial Grandstand of Surigao City.
+                </p>
+                <a href="./gallery.html#gallery4" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+          <!-- 5th card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/bxu.jpg" alt="Band photo" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Balangay Festival, Butuan City</h4>
+                <p class="card-text">
+                Top 5 Finalists battled it out at Butuan City's Balangay Music Festival.
+                </p>
+                <a href="./gallery.html#gallery5" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6th card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./images/reyna.jpg" alt="Female person" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Reyna Visualizer Shoot</h4>
+                <p class="card-text">
+                 Miss Quennie Silva for the shoot for a visualizer of our song "Reyna".
+                </p>
+                <a href="./gallery.html#gallery6" target="_blank" class="btn btn-warning">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br><br>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="bg-image">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-7">
+            <div class="card p-4 my-5 text-center">
+              <h2>Contact Us</h2>
+              <p>
+                Tell us what you think about the band.
+              </p>
+              <form action="process.php" class="pt-3 text-start">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your Name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label" >Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Enter your Message"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <button class="btn btn-info btn-warning">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section id="footer" class=" p-3 bg-warning">
+      <div class="container">
+        <div class="row mb-3">
+      </div>
+
+        <div class="row">
+          <div class="col-md-4">
+          <h2 class="text-center">Sponsors</h2>
+          <ul class="list-group list-group-flush bg-transparent">
+            <a href="https://www.facebook.com/profile.php?id=100075963136321" target="_blank" class="list-group-item list-group-item-action bg-transparent">Sassy's Grill and Restaurant</a>
+            <a href="https://www.facebook.com/MDPsurigao" target="_blank" class="list-group-item list-group-item-action bg-transparent">MD Photography</a>
+            <a href="https://www.facebook.com/CalypsoViola" target="_blank" class="list-group-item list-group-item-action bg-transparent">Calypso Viola</a>
+            <a href="https://www.facebook.com/aandmguitarrepair.surigao" target="_blank" class="list-group-item list-group-item-action bg-transparent">A&M Guitar Repair Shop</a>
+            <a href="https://www.facebook.com/profile.php?id=100091644461481" target="_blank" class="list-group-item list-group-item-action bg-transparent">Mute Camp Home Recording Studio</a>
+            
+          </div>
+          
+          <div class="col-md-4">
+            <h2 class="text-center">Contact Info</h2>
+            <ul class="list-group list-group-flush bg-transparent">
+              <li class="list-group-item  bg-transparent"><i class="bi bi-geo-alt-fill"></i>  City Boulevard, Brgy. Taft, Surigao City</li>
+              <li class="list-group-item  bg-transparent"><i class="bi bi-file-person"></i> Jason Calipon</li>
+              <li class="list-group-item  bg-transparent"><i class="bi bi-telephone-fill"></i>  0985 344 7074</li>
+              <li class="list-group-item  bg-transparent"><i class="bi bi-envelope-arrow-down-fill"></i>  
+                bandangsassy@gmail.com </li>
+              
+            </ul>
+            </div>
+
+          
+          <div class="col-md-4">
+            <h2 class="text-center">Join our FB Group</h2>
+           <p>Join our official Facebook group. You get to interact with the band and other followers. You can share anything with us!</p>
+           <a href="https://www.facebook.com/groups/817367049899496/?ref=share&mibextid=NSMWBT" target="_blank"><button type="button" class="btn btn-dark">Join Now</button></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-3 bg-white text-dark text-center position-relative">
+      <div class="container">
+        <p>Copyright &copy; 2023 Sassy Band</p>
+        <div class="arrow">
+        <a href="#" class="arrow position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+      </div>
+    </footer>    
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    //Smooth Scrolling
+    $("#navbar a, .btn").on("click", function (e) {
+      if (this.hash !== "") {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top - 100,
+          },
+          800
+        );
+      }
+    });
+  </script>
+  
+  </body>
+</html>
