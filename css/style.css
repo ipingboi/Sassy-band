@@ -17,6 +17,9 @@
     font-size: 28px;
 }
 
+.navbar .social i:hover {
+    color: #ffa700;
+}
 /* Background */
 
 #stream, #footer {
