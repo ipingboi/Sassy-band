@@ -17,6 +17,16 @@
     font-size: 28px;
 }
 
+/* Background */
+
+#stream, #footer {
+    background: url(/images/crumpled.jpg) no-repeat center center/cover;
+}
+
+body {
+    font-family: 'Bitter';
+    font-size: 18px;
+}
 
 /* Contact */
 
@@ -82,9 +92,12 @@ textarea:focus, textarea:valid {
     border-color: #ffa700;
 }
 
+ /* Accordion */
+
 .accordion {
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.10rem #ffa700;
 }
+
 
 
 
