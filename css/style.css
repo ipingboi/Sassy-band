@@ -26,9 +26,37 @@
 .navbar .social i:hover {
     color: #ffa700;
 }
+
+/* Carousel */
+
+.carousel-item h1 {
+    font-size: 4.5rem;
+}
+
+.carousel-item p {
+    font-size: 2rem;
+}
+
+.carousel-item .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carousel-item .btn i {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.carousel-caption {
+    transform: translateY(100%);
+    bottom: 50% !important;
+    font-family: 'Kanit';
+  }
+  
 /* Background */
 
-#stream, #footer, #gig {
+#about, #video, #footer {
     background: url(/images/crumpled.jpg) no-repeat center center/cover;
 }
 
@@ -49,6 +77,7 @@ h2 {
 #questions, ul, li{
     font-weight: 100;
 }
+
 
 /* Contact */
 
@@ -73,7 +102,7 @@ textarea:focus, textarea:valid {
     opacity: 0.7;
 }
 
-#gallery1 img:hover {
+#gallery img:hover {
     opacity: 0.7;
 }
 
