@@ -110,3 +110,17 @@ textarea:focus, textarea:valid {
 .accordion {
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.10rem #ffa700;
 }
+
+/* Media */
+
+@media (max-width: 450px) {
+    #slider {
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    #slider {
+        padding-top: 10%;
+    }
+}
