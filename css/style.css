@@ -10,6 +10,9 @@
     font-weight: 800;
 }
 
+.navbar-brand {
+    font-size: 24px;
+}
 .nav-item a:hover {
     color: #ffa700;
 }
@@ -25,7 +28,7 @@
 }
 /* Background */
 
-#stream, #footer {
+#stream, #footer, #gig {
     background: url(/images/crumpled.jpg) no-repeat center center/cover;
 }
 
@@ -130,4 +133,3 @@ textarea:focus, textarea:valid {
         padding-top: 30%;
     }
 }
-
