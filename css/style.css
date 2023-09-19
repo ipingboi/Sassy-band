@@ -7,7 +7,7 @@
 
 /* Navbar */
 
-.navbar {
+.navbar, body {
     background: url(/images/crumpled\ white.jpg)no-repeat center center/cover;
     font-weight: 800;
 }
