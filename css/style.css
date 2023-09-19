@@ -112,14 +112,18 @@ textarea:focus, textarea:valid {
 
 /* Media */
 
+@media (max-width: 768px) {
+    #slider {
+        padding-top: 10%;
+    }
+    .img-logo {
+        padding-top: 40%;
+    }
+}
+
 @media (max-width: 450px) {
     #slider {
         padding-top: 30%;
     }
 }
 
-@media (max-width: 768px) {
-    #slider {
-        padding-top: 10%;
-    }
-}
