@@ -155,6 +155,13 @@ textarea:focus, textarea:valid {
     .img-logo {
         padding-top: 40%;
     }
+
+    .carousel-item h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-item p {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 450px) {
