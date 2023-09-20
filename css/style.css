@@ -52,6 +52,8 @@
     transform: translateY(100%);
     bottom: 50% !important;
     font-family: 'Kanit';
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+               1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
   }
   
 /* Background */
